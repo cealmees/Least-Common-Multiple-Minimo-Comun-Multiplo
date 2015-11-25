@@ -39,16 +39,16 @@ namespace Minimo_común
 
             }
 
-            for (int i = 0; i < aux0; i++)
-            {
-                Console.WriteLine("Numerador [{0}]: " + num[i]+"      Denominador[{0}]: "+den[i], i,i);
-            }
+            //for (int i = 0; i < aux0; i++)
+            //{
+            //    Console.WriteLine("Numerador [{0}]: " + num[i]+"      Denominador[{0}]: "+den[i], i,i);
+            //}
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
-            Console.WriteLine("Numerador: {0}", num[op1-2]);
-            Console.WriteLine("Denominador: {0}", den[op1-2]);
-            Console.WriteLine("Minimo divisor: {0}", mcd(num[op1-2], den[op1-2]));
+            //Console.WriteLine("Numerador: {0}", num[op1-2]);
+            //Console.WriteLine("Denominador: {0}", den[op1-2]);
+            //Console.WriteLine("Minimo divisor: {0}", mcd(num[op1-2], den[op1-2]));
             Console.WriteLine("Mínimo Común: {0}", (den[op1-2]/ mcd(num[op1-2],den[op1-2])));
             Console.ReadLine();
         }
